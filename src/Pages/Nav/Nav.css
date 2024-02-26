@@ -1,20 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
-.Nav_title{
+.Nav_title {
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: 700;
 }
+a{
+    color: white !important;
+}
 
-.nav_tag{
+.test {
+    color: white;
+    position: absolute;
+    height: fit-content;
+    margin: 10px 100px 0 100px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color:transparent; /* Adjust background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
+  }
+  
+  /* Add any other styles you want for the sticky navbar */
+  
+
+.test>a {
+    color: rgb(1, 1, 1);
+}
+
+.nav_tag {
     cursor: pointer;
     font-size: 21px;
     letter-spacing: 1px;
     display: flex;
     flex: 0.6;
     justify-content: space-evenly;
-
-} 
+}
 
 
 

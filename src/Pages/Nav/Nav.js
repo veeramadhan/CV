@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import "./Nav.css"
+import "./Nav.css";
 
 const Nav = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand Nav_title" href="#">
-            Develop<span style={{color:"rgb(255, 96, 0)"}}>er</span>
+    <div className={`container test ${isSticky ? "sticky" : ""}`}>
+      <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid">
+          <a className="navbar-brand Nav_title" href="#">
+            Develop<span style={{ color: "rgb(255, 96, 0)" }}>er</span>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -19,10 +33,10 @@ const Nav = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto nav_tag">
+          <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div className="navbar-nav ms-auto nav_tag">
               <Link to="about" smooth={true} duration={500}>
                 About me
               </Link>
