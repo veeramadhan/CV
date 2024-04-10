@@ -1,0 +1,7 @@
+.exp_content{
+    background-image: url('../../Assests/bg5.jpg');
+    background-size: contain;
+    background-repeat: initial;
+    height: 100vh;
+    width: 99vw;
+}

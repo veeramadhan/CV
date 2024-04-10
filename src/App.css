@@ -20,3 +20,8 @@ rgb(69, 69, 69) grey*/
 .full_body::-webkit-scrollbar{
     display: none;
 } */
+
+
+.full_body{
+    background-color: black;
+}
