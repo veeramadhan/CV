@@ -70,3 +70,20 @@
 .SkillContainer_slider4 >span >.MuiLinearProgress-bar{
     background-color: rgba(55, 196, 0, 0.829);
 }
+
+
+
+@media (min-width: 414px) and (max-width: 767px) {
+  
+    .SkillsContainer_text {
+        color: rgb(255, 255, 255);
+        flex: 0.4 1;
+        text-align: left;
+        width: 337px;
+        margin: 20px;
+        padding-bottom: 20px;
+        margin-left: 11%;
+        margin-top: 38%;
+        position: absolute;
+    }
+}

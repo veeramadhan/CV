@@ -21,8 +21,15 @@ const Contact = () => {
           <p className="bold">+91 6380007962.</p>
 
           <div className="d-flex ">
-          <FontAwesomeIcon icon={faLinkedin} className="iconsize icoon" />  
-          <FontAwesomeIcon icon={faEnvelope} className="iconsize icoon"  />    
+          <a href="https://www.linkedin.com/in/veeramanikandan-l-7164b5144" target="_blank" rel="noopener noreferrer">
+  <FontAwesomeIcon icon={faLinkedin} className="iconsize icoon" />
+</a>
+<div>
+  <FontAwesomeIcon icon={faEnvelope} className="iconsize icoon" />
+  <span>apkveeraa@gmail.com</span>
+</div>
+
+   
           <img src={github}  className="iconsize"  />    
               </div>
         </div>

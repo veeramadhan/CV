@@ -141,7 +141,18 @@
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
   }
   
+  @media (min-width: 414px) and (max-width: 767px) {
+  
+    .text_content {
+      margin-left: 7%;
+      margin-top: 62%;
+  }
 
+  .textSize{
+    font-size: 30px;
+  }
+  }
+  
   
 
 

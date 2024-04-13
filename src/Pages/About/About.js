@@ -11,7 +11,7 @@ const About = () => {
         <Nav />
 
         <div className="text_content">
-          <p>Hello there...</p>
+          <p className="textSize">Hello there...</p>
           <p>Veeramanikandan</p>
 
           <h3 className="text_name">

@@ -20,12 +20,12 @@ const Nav = () => {
   return (
     <div className={`container test ${isSticky ? "sticky" : ""}`}>
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+        <div className="container-fluid navMob">
           <a className="navbar-brand Nav_title" href="#">
             Develop<span style={{ color: "rgb(255, 96, 0)" }}>er</span>
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler navMobToggle"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
