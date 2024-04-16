@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <Element name="contact">
       <div className="contact_form row">
-        <div className="col-5 leftSideContent">
+        <div className="col-lg-5 col-sm-8 leftSideContent">
           <h1 className="display-3 bold">Let's get in touch</h1>
           <p className="para">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
           <h3 className="aside">Living In:</h3>
@@ -25,8 +25,8 @@ const Contact = () => {
   <FontAwesomeIcon icon={faLinkedin} className="iconsize icoon" />
 </a>
 <div>
-  <FontAwesomeIcon icon={faEnvelope} className="iconsize icoon" />
-  <span>apkveeraa@gmail.com</span>
+  <FontAwesomeIcon icon={faEnvelope} className="iconsize icoon" >
+  <span>apkveeraa@gmail.com</span></FontAwesomeIcon>
 </div>
 
    
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
 
-        <div className="col-5">
+        <div className="col-lg-5">
         
         
 <div class="form-container">

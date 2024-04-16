@@ -4,8 +4,8 @@ import logov3 from "../../Assests/logoV3.png"
 
 const Cardtwo = () => {
   return (
-    <div class="card"> 
-          <img src={logov3} alt="aahaas" height="150px" width='500px' />
+    <div class="card cardtwo"> 
+          <img src={logov3} alt="aahaas" height="150px" width='500px' className='card__imagtwo' />
   <div class="card__content">
     <p class="card__title">Software developer</p>
     <p class="card__description">

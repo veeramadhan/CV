@@ -8,10 +8,10 @@ const Experiences = () => {
   return (
     <Element name="experiences">
       <div className="exp_content row">
-        <div className="col-5">
+        <div className="col-lg-5 col-sm-12">
           <Cardone />
         </div>
-        <div className="col-5">
+        <div className="col-lg-5 col-sm-12">
           <Cardtwo />
         </div>
       </div>

@@ -12,10 +12,10 @@ a{
 .test {
     color: white;
     position: absolute;
+    height: -moz-fit-content;
     height: fit-content;
-    margin: 10px 100px 0 100px;
+    margin: 0px 0px 0 115px;
 }
-
 .sticky {
     position: fixed;
     top: 0;
@@ -81,6 +81,11 @@ Link:hover {
     /* display: block; */
     margin: 10px 0px 0px -96px;
     align-items: center;
+}
+
+.sticky {
+    background-color:none !important;
+    backdrop-filter: none;
 }
 
 .navbar-toggler-icon {

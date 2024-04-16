@@ -1,15 +1,15 @@
-import React from 'react'
-import { Element } from 'react-scroll'
-import "./Services.css"
-import bg1 from "../../Assests/bg2.jpg"
-import bg2 from "../../Assests/bg2.jpg"
-import bg3 from "../../Assests/bg2.jpg"
+import React from "react";
+import { Element } from "react-scroll";
+import "./Services.css";
+import bg1 from "../../Assests/bg2.jpg";
+import bg2 from "../../Assests/bg2.jpg";
+import bg3 from "../../Assests/bg2.jpg";
 
 const Services = () => {
   return (
     <Element name="services">
-    <div className="services_content">
-    {/* <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div className="services_content">
+        {/* <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -48,9 +48,9 @@ const Services = () => {
   </button>
 </div> */}
 
-<div className="Services_content_card">
+        <div className="Services_content_card">
           <div className="card_card">
-            <div className=" d-flex box1">
+            <div className="box1">
               <div class="">
                 <a class="card1_card">
                   <p className="title_text_card">Responsiveness</p>
@@ -68,7 +68,7 @@ const Services = () => {
 
               <div class="">
                 <a class="card1_card">
-                  <p  className="title_text_card">Different Layout</p>
+                  <p className="title_text_card">Different Layout</p>
                   <p class="text-content_card">
                     "Diverse Layouts, Infinite Possibilities Crafting Unique
                     Designs for Varied Aesthetics From Minimalistic Elegance to
@@ -83,7 +83,7 @@ const Services = () => {
 
               <div class="">
                 <a class="card1_card">
-                  <p  className="title_text_card">Make it Simple</p>
+                  <p className="title_text_card">Make it Simple</p>
                   <p class="text-content_card">
                     "Simplicity Redefined in Design Clean, Intuitive Layouts for
                     Ease Modern Solutions, Effortless Experience Your Website,
@@ -96,10 +96,10 @@ const Services = () => {
               </div>
             </div>
 
-            <div className=" d-flex  box2">
+            <div className="box2">
               <div class="mt-5">
                 <a class="card1_card">
-                  <p  className="title_text_card"> Unique design</p>
+                  <p className="title_text_card"> Unique design</p>
                   <p class="text-content_card">
                     "Transforming Ideas into Exceptional Experiences
                     Specializing in Stylish, Modern Website Design Tailored
@@ -114,7 +114,7 @@ const Services = () => {
 
               <div class="mt-5">
                 <a class="card1_card">
-                  <p  className="title_text_card">Testing for Perfection</p>
+                  <p className="title_text_card">Testing for Perfection</p>
                   <p class=" text-content_card">
                     "Testing for Perfection Striving for Excellence through
                     Rigorous Testing Ensuring Flawless Functionality Your
@@ -128,7 +128,7 @@ const Services = () => {
 
               <div class="mt-5">
                 <a class="card1_card">
-                  <p  className="title_text_card">Advanced Options</p>
+                  <p className="title_text_card">Advanced Options</p>
                   <p class=" text-content_card">
                     "Exploring Advanced Options Tailoring Innovative Solutions
                     Beyond the Basics Elevating Functionality with Cutting-edge
@@ -142,10 +142,9 @@ const Services = () => {
             </div>
           </div>
         </div>
+      </div>
+    </Element>
+  );
+};
 
-</div>
-  </Element>
-  )
-}
-
-export default Services
+export default Services;

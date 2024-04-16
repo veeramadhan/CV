@@ -1,37 +1,34 @@
-.services_content{
-    background-image: url('../../Assests/bg5.jpg');
-    background-size: contain;
-    background-repeat: initial;
-    height: 100vh;
-    width: 99vw;
+.services_content {
+  background-image: url('../../Assests/bg3.jpg');
+  background-size: contain;
+  background-repeat: initial;
+  height: 100vh;
+  width: 99vw;
 }
 
 .card_card {
   margin-left: 12%;
-  /* max-width: 100%; */
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   background: transparent;
-  margin-top: 25% !important;
+  margin-top: 52% !important;
   width: 72rem;
-  /* justify-content: unset; */
-  /* position: relative; */
 }
 
-.text-content_card{
-font-size: 20px ;
+.text-content_card {
+  font-size: 20px;
 }
 
-.title_text_card{
-font-size: 26px !important;
-color: black !important;
-font-weight: 500 !important;
-font-family:'Times New Roman', Times, serif;
+.title_text_card {
+  font-size: 26px !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
 
-.Services_content_card{
+.Services_content_card {
   margin-top: -3%;
 }
 
@@ -66,7 +63,7 @@ font-family:'Times New Roman', Times, serif;
   margin-right: -4px;
   color: white;
   font-family: courier, sans;
- 
+
 }
 
 .card1_card {
@@ -91,13 +88,13 @@ font-family:'Times New Roman', Times, serif;
   right: -16px;
   background: rgb(218, 14, 160);
   height: 52px;
-  color: rgb(6, 6, 6) !important ;
+  color: rgb(6, 6, 6) !important;
   width: 42px;
   border-radius: 32px;
   transform: scale(1);
   transform-origin: 50% 50%;
   transition: transform 0.25s ease-out;
-  
+
 }
 
 .card1_card:hover:before {
@@ -238,14 +235,31 @@ font-family:'Times New Roman', Times, serif;
   opacity: 1;
 }
 
-.box1 {
-  display: flex !important;
-  position: absolute;
-  margin-top: 438px !important;
+
+.box1{
+  margin-top: 130px;
+
+}
+.box1,
+.box2 {
+  display: flex;
+  height: fit-content;
 }
 
-.box2 {
-  display: flex !important;
-  position: relative !important;
-  margin-top: 114px !important;
+@media (min-width: 414px) and (max-width: 767px) {
+
+  .box1,
+  .box2 {
+    flex-direction: column;
+    
+  }
+
+
+  .services_content {
+    background-image: url(../../Assests/bg3.jpg);
+    background-size: contain;
+    background-repeat: initial;
+    height: 210vh !important;
+    width: 99vw;
+}
 }
