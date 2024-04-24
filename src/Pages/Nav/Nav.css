@@ -62,7 +62,8 @@ Link:hover {
 /* Add this CSS to your existing Nav.css file */
 
 /* Media query for mobile devices (320px to 767px) */
-@media (min-width: 414px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 991px) {
+
    .navMobToggle{
     margin: 0 108px 0 0px;
     background-color: white;
@@ -99,6 +100,8 @@ Link:hover {
     background-position: center;
     background-size: 100%;
 }
+
+
 
   }
   
