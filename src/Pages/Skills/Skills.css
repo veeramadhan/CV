@@ -73,7 +73,7 @@
 
 
 
-@media (min-width: 414px) and (max-width: 767px) {
+/* @media (min-width: 414px) and (max-width: 767px) {
   
     .SkillsContainer_text {
         color: rgb(255, 255, 255);
@@ -95,6 +95,32 @@
         background-size: cover;
         /* background-repeat: no-repeat; */
         /* background-size: auto; */
-        box-shadow: inset 0 0 0 2000px rgba(0, 0,0, 0.5);
+      
+
+
+
+@media (max-width: 576px) {
+
+    .Skills_content {
+        height: 100vh;
+        width: 100%;
+        background-image: url("../../Assests/skilling.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: auto; */
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    }
+
+    .SkillsContainer_text {
+        color: rgb(255, 255, 255);
+        flex: 0.4 1;
+        text-align: left;
+        width: 500px;
+        margin: 20px;
+        padding-bottom: 20px;
+        margin-left: 29%;
+        margin-top: 12%;
+        position: absolute;
     }
 }

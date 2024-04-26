@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <Element name="contact">
       <div className="contact_form row">
-        <div className="col-lg-5 col-sm-8 leftSideContent">
+        <div className="col-lg-5 col-sm-4 leftSideContent">
           <h1 className="display-3 bold">Let's get in touch</h1>
           <p className="para">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
           <h3 className="aside">Living In:</h3>
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
 
-        <div className="col-lg-5">
+        <div className="col-lg-5 col-sm-4">
         
         
 <div class="form-container">

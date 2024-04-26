@@ -5,7 +5,8 @@
     letter-spacing: 1px;
     font-weight: 700;
 }
-a{
+
+a {
     color: white !important;
 }
 
@@ -16,19 +17,23 @@ a{
     height: fit-content;
     margin: 0px 0px 0 115px;
 }
+
 .sticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     backdrop-filter: blur(20px);
-    z-index: 1000; /* Adjust z-index as needed */
-    background-color:transparent; /* Adjust background color as needed */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
-  }
-  
-  /* Add any other styles you want for the sticky navbar */
-  
+    z-index: 1000;
+    /* Adjust z-index as needed */
+    background-color: transparent;
+    /* Adjust background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for visual effect */
+}
+
+/* Add any other styles you want for the sticky navbar */
+
 
 .test>a {
     color: rgb(1, 1, 1);
@@ -62,46 +67,90 @@ Link:hover {
 /* Add this CSS to your existing Nav.css file */
 
 /* Media query for mobile devices (320px to 767px) */
+
+@media (max-width: 576px) {
+    .navMobToggle {
+        margin: 48px 167px 0 0px;
+        background-color: white;
+    }
+    
+    .Nav_title {
+        font-size: 96px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin: 35px 0px 0 -87px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        /* display: block; */
+        margin: 31px 0px 0px -78px;
+        align-items: center;
+    }
+
+
+    .sticky {
+        background-color: none !important;
+        backdrop-filter: none;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        background-color: white;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+
+
+}
+
+
 @media (min-width: 577px) and (max-width: 991px) {
 
-   .navMobToggle{
-    margin: 0 108px 0 0px;
-    background-color: white;
-   }
+    .navMobToggle {
+        margin: 0 108px 0 0px;
+        background-color: white;
+    }
 
-   .Nav_title {
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin: 0 0px 0 -100px;
+    .Nav_title {
+        font-size: 80px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin: 0 0px 0 -100px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        /* display: block; */
+        margin: 10px 0px 0px -96px;
+        align-items: center;
+    }
+
+    .sticky {
+        background-color: none !important;
+        backdrop-filter: none;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        background-color: white;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+
+
 }
-
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-    /* display: block; */
-    margin: 10px 0px 0px -96px;
-    align-items: center;
-}
-
-.sticky {
-    background-color:none !important;
-    backdrop-filter: none;
-}
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    background-color: white;
-    height: 1.5em;
-    vertical-align: middle;
-    background-image: var(--bs-navbar-toggler-icon-bg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-
-
-
-  }
-  

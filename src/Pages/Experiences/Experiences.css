@@ -8,5 +8,17 @@
 
 
 
+@media (max-width: 576px) {
+ .exp_content {
+    background-image: url('../../Assests/bg5.jpg');
+        background-size: contain;
+        background-repeat: initial;
+        height: 200vh;
+        width: 100%;
+    }
 
+
+
+
+}
 
