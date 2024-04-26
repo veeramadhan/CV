@@ -285,3 +285,9 @@
 }
 
 }
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .services_content {
+    display: none;
+  }
+}

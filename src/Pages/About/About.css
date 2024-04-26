@@ -155,7 +155,13 @@
   
 
   @media (min-width: 577px) and (max-width: 991px) {
-
+    .text_content {
+      margin-left: 25%;
+      margin-top: 22%;
+  }
+  .textSize{
+    font-size: 30px;
+  }
   }
 
 

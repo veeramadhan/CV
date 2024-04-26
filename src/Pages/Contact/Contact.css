@@ -180,3 +180,12 @@ font-weight: 700;
 }
 
 }
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+  .bold {
+    font-weight: 700;
+    font-size: 42px;
+  }
+}

@@ -16,9 +16,15 @@
         height: 200vh;
         width: 100%;
     }
-
-
-
-
 }
 
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .exp_content {
+        background-image: url('../../Assests/bg5.jpg');
+            background-size: contain;
+            background-repeat: initial;
+            height: 200vh;
+            width: 100%;
+        }
+}
